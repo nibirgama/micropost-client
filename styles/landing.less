@@ -1,0 +1,179 @@
+.landing-card-section {
+  padding: 5% 10%;
+}
+
+.review-section-card {
+  margin-top: 80px;
+}
+
+.review-quote {
+  height: 90px;
+}
+
+.review-section-card-skew {
+  transform: skew(-5deg, -2deg);
+  background-color: #fff;
+  border-radius: 70px;
+  padding: 45px 58px;
+  width: 93%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.landing-hero-subtitle {
+  border-left: 4px solid #ff7a45;
+  padding: 0 10px;
+}
+
+.landing-hero-section {
+  padding: 100px 0;
+}
+
+.landing-hero-img {
+  width: 100%;
+}
+
+.landing-hero-button .ant-btn-lg {
+  height: 60px;
+  font-size: 30px;
+  width: 323px;
+  font-weight: 600;
+}
+
+.landing-hero-section-footer {
+  background-color: #f6f6f6;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .review-section-card-skew {
+    width: 75% !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .landing-card-section {
+    padding-top: 10%;
+  }
+
+  .review-quote {
+    height: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 1091px) {
+  .landing-hero-section-body {
+    text-align: center;
+  }
+
+  .landing-hero-subtitle {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .landing-hero-section-body .ant-col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .reverse-hero :nth-child(1) {
+    order: 2;
+  }
+
+  .reverse-hero :nth-child(2) {
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .landing-card-section {
+    // padding: 20% 8%;
+    padding: 20% 5%;
+  }
+
+  .landing-hero-section {
+    padding-top: 100px !important;
+    padding-bottom: 50px !important;
+    // padding: 100px 20px !important;
+  }
+
+  .review-section-card-skew {
+    width: 100% !important;
+    // padding: 45px 40px;
+    padding: 45px 14px 45px 30px;
+  }
+
+  .review-quote {
+    height: auto !important;
+  }
+
+  .landing-hero-section-footer {
+    background-color: #f6f6f6;
+    padding: 25px 20px;
+  }
+}
+
+//IPAD PORTRAIT
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .review-quote {
+    height: 130px;
+  }
+
+  .landing-card-section {
+    padding: 10% 5%;
+  }
+
+  .review-section-card-skew {
+    width: 100%;
+  }
+}
+
+//IPAD LANDSCAPE
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
+  .review-quote {
+    height: 90px;
+  }
+
+  .landing-card-section {
+    padding: 5%;
+  }
+
+  .review-section-card-skew {
+    width: 100%;
+  }
+
+  .review-section-card .ant-col-lg-8 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+// @media only screen
+//   and (min-width: 1024px)
+//   and (max-height: 1366px)
+//   and (-webkit-min-device-pixel-ratio: 1.5) {
+// }
+
+/* Portrait */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .review-quote {
+    height: 90px;
+  }
+
+  .review-section-card-skew {
+    width: 100%;
+  }
+
+  .review-section-card .ant-col-lg-8 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
