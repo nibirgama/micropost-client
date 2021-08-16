@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Change the base url from confg/config.js file
+
 First, run the development server:
 
 ```bash
